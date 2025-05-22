@@ -33,3 +33,27 @@ webpack compiled successfully
 Compiling...
 Compiled successfully!
 webpack compiled successfully
+Compiling...
+Failed to compile.
+
+Syntax error: /home/kavia/workspace/code-generation/italiagusto-a-culinary-journey-through-italy-95520-95526/main_container_for_italia_gusto/src/App.css Unclosed string (191:63)
+  189 | // Import page components
+  190 | import Hero from './components/home/Hero';
+> 191 | import FeaturedContent from './components/home/FeaturedContent';
+      |                                                               ^
+  192 | 
+  193 | function App() {
+ERROR in ./src/App.css (./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./src/App.css)
+Module build failed (from ./node_modules/postcss-loader/dist/cjs.js):
+SyntaxError
+
+(191:63) /home/kavia/workspace/code-generation/italiagusto-a-culinary-journey-through-italy-95520-95526/main_container_for_italia_gusto/src/App.css Unclosed string
+
+  189 | // Import page components
+  190 | import Hero from './components/home/Hero';
+> 191 | import FeaturedContent from './components/home/FeaturedContent';
+      |                                                               ^
+  192 | 
+  193 | function App() {
+
+webpack compiled with 1 error
