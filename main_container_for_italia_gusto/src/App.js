@@ -9,6 +9,7 @@ import Footer from './components/layout/Footer';
 // Import page components
 import Hero from './components/home/Hero';
 import FeaturedContent from './components/home/FeaturedContent';
+import RegionalHighlights from './components/home/RegionalHighlights';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <main className="main-content">
           <Hero />
           <FeaturedContent />
+          <RegionalHighlights />
           
           {/* Additional content sections can be added here */}
         </main>
