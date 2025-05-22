@@ -26,6 +26,7 @@ function App() {
           {/* Additional content sections can be added here */}
         </main>
         
+        <NewsletterSignup />
         <Footer />
       </MainContainer>
     </div>
