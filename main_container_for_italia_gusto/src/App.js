@@ -10,6 +10,7 @@ import Footer from './components/layout/Footer';
 import Hero from './components/home/Hero';
 import FeaturedContent from './components/home/FeaturedContent';
 import RegionalHighlights from './components/home/RegionalHighlights';
+import PopularRecipes from './components/home/PopularRecipes';
 import NewsletterSignup from './components/common/NewsletterSignup';
 
 function App() {
