@@ -23,6 +23,7 @@ function App() {
           <Hero />
           <FeaturedContent />
           <RegionalHighlights />
+          <PopularRecipes />
           
           {/* Additional content sections can be added here */}
         </main>
