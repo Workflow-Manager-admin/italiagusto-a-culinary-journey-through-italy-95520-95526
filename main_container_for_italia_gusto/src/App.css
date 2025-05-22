@@ -197,7 +197,67 @@
   }
 }
 
+/* Newsletter Signup Section */
+.newsletter-signup {
+  padding: 70px 0;
+  background-color: var(--dark-background);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  background-size: cover;
+  background-position: center;
+  color: var(--text-light);
+}
+
+.newsletter-content {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.newsletter-title {
+  font-size: 2.5rem;
+  margin: 0 0 16px;
+  font-family: 'Playfair Display', serif;
+  color: var(--text-light);
+}
+
+.newsletter-description {
+  font-size: 1.1rem;
+  margin-bottom: 32px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.newsletter-form {
+  display: flex;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.newsletter-input {
+  flex: 1;
+  padding: 12px 16px;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  font-family: inherit;
+}
+
+.newsletter-success {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 16px;
+  border-radius: 4px;
+  font-size: 1.1rem;
+}
+
 @media (max-width: 768px) {
+  .newsletter-form {
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .newsletter-input {
+    width: 100%;
+  }
+  
   .footer-content {
     grid-template-columns: 1fr;
     gap: 32px;
