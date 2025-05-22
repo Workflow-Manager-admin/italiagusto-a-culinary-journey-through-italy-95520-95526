@@ -1,9 +1,24 @@
 :root {
-  --kavia-orange: #E87A41;
-  --kavia-dark: #1A1A1A;
-  --text-color: #ffffff;
-  --text-secondary: rgba(255, 255, 255, 0.7);
-  --border-color: rgba(255, 255, 255, 0.1);
+  /* Italian flag inspired colors */
+  --italia-green: #008C45;
+  --italia-white: #F4F5F0;
+  --italia-red: #CD212A;
+  
+  /* UI Colors */
+  --primary-color: #8B0000;       /* Dark red for primary elements */
+  --secondary-color: #4A7C59;     /* Olive green for secondary elements */
+  --accent-color: #FFA500;        /* Orange for accents */
+  --background-color: #FFFDF6;    /* Off-white for backgrounds */
+  --dark-background: #1E1810;     /* Dark brown for contrasting areas */
+  
+  /* Text colors */
+  --text-color: #2C2416;          /* Dark brown for text */
+  --text-light: #FFFDF6;          /* Off-white for text on dark backgrounds */
+  --text-secondary: #6B6054;      /* Muted brown for secondary text */
+  
+  /* Border colors */
+  --border-color: #E3D9C8;        /* Light beige for borders */
+  --border-dark: #8C7A64;         /* Darker beige for emphasis */
 }
 
 body {
